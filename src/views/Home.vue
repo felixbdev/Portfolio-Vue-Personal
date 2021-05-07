@@ -50,8 +50,8 @@
     </div>
 
     </div>
-    <div class="container-fluid labores bg-danger" >
 
+    <div class="container-fluid labores bg-danger" >
       <Content
       tittle="I'm Available For Hire"
       content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
