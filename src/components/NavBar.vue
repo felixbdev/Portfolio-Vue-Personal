@@ -9,25 +9,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link"> <router-link to="/">Home</router-link> </a>
+            <router-link class="link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link"><router-link to="/about">About</router-link></a>
+            <router-link class="link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link"><router-link to="/services">Services</router-link></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <router-link to="/pages">Pages</router-link>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
+            <router-link class="link" to="/services">Services</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link"><router-link to="/contact">Contact</router-link></a>
+            <router-link class="link" to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>
@@ -63,10 +54,14 @@ export default {
   padding: 20px;
 }
 
-#nav a {
+.link{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 14px;
   font-weight: bold;
-  color: #ffffff;
+
 }
+
 
 #nav a.router-link-exact-active {
   color: #42b983;
