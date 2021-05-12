@@ -7,7 +7,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
             <router-link class="link" to="/">Home</router-link>
           </li>
@@ -54,6 +54,11 @@ export default {
   padding: 20px;
 }
 
+#nav li{
+  padding: 6px;
+  margin-left: 5px;
+}
+
 .link{
   color: #fff;
   text-decoration: none;
@@ -65,6 +70,13 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#nav .collapse, .navbar-collapse {
+  background: #0f2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c5364, #203a43, #0f2027de); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 </style>
