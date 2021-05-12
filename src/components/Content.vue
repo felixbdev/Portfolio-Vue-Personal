@@ -1,15 +1,8 @@
 <template>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-12">
         <div class="text-center">
           <h2>{{tittle}}</h2>
           <p class="mt-4">{{content}}</p>
         </div>
-      </div>
-    </div>
-
-  </div>
 </template>
 
 <script>

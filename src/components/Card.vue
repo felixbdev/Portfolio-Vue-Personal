@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 col-md-3 mr-5 card">
+  <div class="col-12 col-md-3 card">
     <div class="icon">
       <img :src="icon" alt="">
     </div>
@@ -34,8 +34,5 @@ export default {
 .title,.text {
     color: #fff;
 }
-
-
-
 
 </style>

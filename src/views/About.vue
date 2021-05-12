@@ -2,7 +2,7 @@
   <div class="about">
   </div>
 
-<div class="container">
+<div class="container d-flex">
   <div class="img">
     <img src="../assets/avatar.png" alt="">
   </div>
@@ -44,7 +44,7 @@ export default {
 
 .container{
   margin-top: 15px;
-  display: flex;
+  flex-direction: column;
 }
 
 .img{
