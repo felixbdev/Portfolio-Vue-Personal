@@ -1,7 +1,7 @@
 <template>
   <div class="col-12 col-md-3 card">
     <div class="icon">
-      <ion-icon name="brush"></ion-icon>
+      <ion-icon :name="icon"></ion-icon>
     </div>
     <h5 class="title">{{title}}</h5>
     <p class="text">{{text}}</p>

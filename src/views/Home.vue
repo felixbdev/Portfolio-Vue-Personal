@@ -72,15 +72,18 @@
           class="mb-4"
           title="Frontend"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          icon="add"
         />
         <Card
           class="mb-4"
           title="Maquetador"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          icon="logo-gitlab"
         />
         <Card
           title="Nuevas Tecnologias"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          icon="logo-github"
         />
       </div>
     </div>
