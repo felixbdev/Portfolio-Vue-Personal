@@ -8,7 +8,7 @@
   </div>
   <div class="container text-center">
     <div class="row">
-      <div class="container col-12">
+      <div class="container col-12 mt-5">
         <Content
           class="text-black"
           tittle='Welcome To my Site'
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row text-left">
+    <div class="row text-left mt-1">
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Bootstrap</span>
         <Barra/>
@@ -51,19 +51,23 @@
 
     </div>
 
-    <div class="container-fluid labores bg-danger" >
-      <Content
-      tittle="I'm Available For Hire"
-      content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
-      class="text-white pt-5"
-      />
-      <div class="row justify-content-center mt-3 card-presentacion">
+    <div class="container-fluid labores bg-danger mt-5" >
+      <div class="container">
+        <Content
+          tittle="I'm Available For Hire"
+          content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+          cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
+          class="text-white pt-5"
+        />
+      </div>
+      <div class="row justify-content-around mt-5 card-presentacion">
         <Card
+        class="mb-4"
         title="Frontend"
         text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
         />
         <Card
+        class="mb-4"
         title="Maquetador"
         text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
         />
