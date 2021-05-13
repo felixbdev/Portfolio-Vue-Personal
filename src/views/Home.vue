@@ -45,7 +45,9 @@
     <div class="row text-left mt-1">
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Bootstrap</span>
-        <Barra/>
+        <Barra
+          progres= "80"
+        />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Vue js</span>
@@ -72,7 +74,7 @@
           class="mb-4"
           title="Frontend"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-          icon="add"
+          icon="brush"
         />
         <Card
           class="mb-4"
