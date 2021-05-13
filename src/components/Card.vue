@@ -1,9 +1,9 @@
 <template>
-  <div class="col-12 col-md-3 mr-5 card">
+  <div class="col-12 col-md-3 card">
     <div class="icon">
-      <img :src="icon" alt="">
+      <ion-icon :name="icon"></ion-icon>
     </div>
-    <span class="title">{{title}}</span>
+    <h5 class="title">{{title}}</h5>
     <p class="text">{{text}}</p>
   </div>
 </template>
@@ -25,6 +25,21 @@ export default {
 .card{
   background: rgba(164, 164, 164, 0.181);
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.icon{
+  margin: 20px auto 5px;
+  height: auto;
+  width: 60px;
+
+  border: 1px solid red;
+}
+
+h5{
+  font-weight: bold;
 }
 
 .card:hover{
@@ -35,7 +50,9 @@ export default {
     color: #fff;
 }
 
-
-
+ion-icon{
+  color: green;
+  font-size: 50px;
+}
 
 </style>
