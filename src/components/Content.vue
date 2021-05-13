@@ -23,7 +23,7 @@ export default {
 <style scoped>
 .contain{
   height: auto;
-  width: 900px;
+  width: 100%;
   margin: auto;
   border: 1px solid red;
 

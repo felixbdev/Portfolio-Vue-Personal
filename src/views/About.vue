@@ -2,15 +2,21 @@
   <div class="about">
   </div>
 
-<div class="container d-flex">
-  <div class="img">
-    <img src="../assets/avatar.png" alt="">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="img col-12 col-md-3">
+        <img src="../assets/avatar.png" alt="">
+      </div>
+      <div class="col-12 col-md-9 d-flex align-items-center">
+        <Content
+          tittle= "Sobre mi"
+          content= "loremdekiefkfekiefikefkfekifekifelsddsf sf
+          wefwefwfw
+          fwefwfwefhhhhhhhhhhh"
+        />
+      </div>
+    </div>
   </div>
-  <Content 
-  tittle= "Sobre mi"
-  content= "loremdekiefkfekiefikefkfekifekifelsdfhhhhhhhhhhh" 
-  />
-</div>
 </template>
 
 
@@ -21,7 +27,7 @@ export default {
   name: "About",
   components: {
     Content
-  }  
+  }
 }
 </script>
 
@@ -39,23 +45,22 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
-  
+
 }
 
-.container{
-  margin-top: 15px;
-  flex-direction: column;
-}
+
 
 .img{
-  height: auto;
   border: 1px solid blue;
-  width: 290px;
-  margin: 0px auto ;
+  height: 300px;
+  width: 100%;
+
 }
 
 .img img{
-  width: 300px;
+  width: 190px;
+  height: 300px;
+  object-fit: cover;
 }
 
 
