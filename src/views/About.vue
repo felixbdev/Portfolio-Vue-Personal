@@ -2,15 +2,28 @@
   <div class="about">
   </div>
 
+<div class="container d-flex">
   <div class="img">
+    <img src="../assets/avatar.png" alt="">
   </div>
-
-
-  ffkfkfk
+  <Content 
+  tittle= "Sobre mi"
+  content= "loremdekiefkfekiefikefkfekifekifelsdfhhhhhhhhhhh" 
+  />
+</div>
 </template>
 
 
+<script>
+import Content from "../components/Content.vue"
 
+export default {
+  name: "About",
+  components: {
+    Content
+  }  
+}
+</script>
 
 
 
@@ -29,7 +42,21 @@
   
 }
 
-.img{
-  height: 400px;
+.container{
+  margin-top: 15px;
+  flex-direction: column;
 }
+
+.img{
+  height: auto;
+  border: 1px solid blue;
+  width: 290px;
+  margin: 0px auto ;
+}
+
+.img img{
+  width: 300px;
+}
+
+
 </style>

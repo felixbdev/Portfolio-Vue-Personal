@@ -58,7 +58,7 @@
       cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
       class="text-white pt-5"
       />
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center mt-3 card-presentacion">
         <Card
         title="Frontend"
         text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
