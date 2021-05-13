@@ -1,8 +1,10 @@
 <template>
-        <div class="text-center">
-          <h2>{{tittle}}</h2>
-          <p class="mt-4">{{content}}</p>
-        </div>
+  <div class="contain">
+    <div class="text-center">
+        <h2>{{tittle}}</h2>
+        <p class="mt-4">{{content}}</p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -19,10 +21,16 @@ export default {
 </script>
 
 <style scoped>
-.container{
+.contain{
   height: auto;
-  width: 850px;
+  width: 900px;
+  margin: auto;
+  border: 1px solid red;
 
+}
+
+h2{
+  font-weight: bold;
 }
 
 </style>

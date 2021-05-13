@@ -31,8 +31,15 @@ export default {
 }
 
 .icon{
-  margin-top: 20px;
-  height: 30px;
+  margin: 20px auto 5px;
+  height: auto;
+  width: 60px;
+
+  border: 1px solid red;
+}
+
+h5{
+  font-weight: bold;
 }
 
 .card:hover{

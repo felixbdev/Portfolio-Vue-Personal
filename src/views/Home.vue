@@ -1,12 +1,13 @@
 <template>
-  <div class="home container-fluid">
+  <div class="home container-fluid" id="portada">
     <div class="row">
       <div class="col-12 container hero">
-            <Jumbotron titulo= "Hello, I'm Felix Bonillo" span = "Desarrollador Front-End"/>
+        <Jumbotron titulo= "Hello, I'm Felix Bonillo" span = "Desarrollador Front-End"/>
       </div>
     </div>
   </div>
-  <div class="container text-center">
+
+  <div class="container text-center" id="bienvenida">
     <div class="row">
       <div class="container col-12 mt-5">
         <Content
@@ -19,6 +20,8 @@
         />
       </div>
     </div>
+
+
     <div class="row mt-5 text-left">
       <div class="col-12 col-md-6 col-lg-4 mb-5 ">
         <span>HTML</span>
@@ -26,13 +29,18 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>CSS</span>
-        <Barra/>
+        <Barra
+
+        />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Javascript</span>
         <Barra/>
       </div>
     </div>
+
+
+
 
     <div class="row text-left mt-1">
       <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -48,38 +56,35 @@
         <Barra/>
       </div>
     </div>
-
-    </div>
-
-    <div class="container-fluid labores bg-danger mt-5" >
-      <div class="container">
-        <Content
-          tittle="I'm Available For Hire"
-          content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-          cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
-          class="text-white pt-5"
-        />
-      </div>
-      <div class="row justify-content-around mt-5 card-presentacion">
-        <Card
-        class="mb-4"
-        title="Frontend"
-        text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-        />
-        <Card
-        class="mb-4"
-        title="Maquetador"
-        text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-        />
-        <Card
-        title="Nuevas Tecnologias"
-        text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-        />
-      </div>
-
   </div>
 
 
+  <div class="container-fluid labores bg-danger mt-5" id="skills">
+    <div class="container ">
+      <Content
+        tittle="I'm Available For Hire"
+        content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
+        class="text-white pt-5"
+      />
+      <div class="row justify-content-around mt-5 card-presentacion">
+        <Card
+          class="mb-4"
+          title="Frontend"
+          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+        />
+        <Card
+          class="mb-4"
+          title="Maquetador"
+          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+        />
+        <Card
+          title="Nuevas Tecnologias"
+          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+        />
+      </div>
+    </div>
+  </div>
 
 </template>
 
