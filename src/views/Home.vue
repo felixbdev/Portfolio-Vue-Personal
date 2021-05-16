@@ -46,7 +46,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Bootstrap</span>
         <Barra
-          progres= "80"
+          progres= 80
         />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -61,23 +61,23 @@
   </div>
 
 
-  <div class="container-fluid labores bg-danger mt-5" id="skills">
+  <div class="labores container-fluid bg-danger mt-5" id="skills">
     <div class="container ">
       <Content
         tittle="I'm Available For Hire"
         content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
         cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
-        class="text-white pt-5"
+        class="text-white pt-4"
       />
-      <div class="row justify-content-around mt-5 card-presentacion">
+      <div class="row justify-content-around mt-4 card-presentacion">
         <Card
-          class="mb-4"
+          class="mb-3"
           title="Frontend"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="brush"
         />
         <Card
-          class="mb-4"
+          class="mb-3"
           title="Maquetador"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="logo-gitlab"
@@ -90,7 +90,11 @@
       </div>
     </div>
   </div>
-
+  <div class="container-fluid">
+    <Proyectos
+      class="mt-5"
+    />
+  </div>
 </template>
 
 <script>
@@ -98,11 +102,13 @@ import Jumbotron from '@/components/Jumbotron'
 import Content from '@/components/Content'
 import Barra from '../components/Barra'
 import Card from '../components/Card'
+import Proyectos from '../components/Proyectos'
+
 
 export default {
   name: 'Home',
   components: {
-    Jumbotron,Content,Barra,Card
+    Jumbotron,Content,Barra,Card, Proyectos,
   }
 }
 </script>
@@ -123,8 +129,8 @@ export default {
 
 .labores{
     background: #23232393;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #535353);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #00000083, #4642425b), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000d6, #121111c0), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
