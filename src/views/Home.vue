@@ -69,20 +69,21 @@
         cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
         class="text-white pt-4"
       />
-      <div class="row justify-content-around mt-4 card-presentacion">
+      <div class="row justify-content-around mt-2 card-presentacion">
         <Card
-          class="mb-3"
+          class="mb-2"
           title="Frontend"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="brush"
         />
         <Card
-          class="mb-3"
+          class="mb-2"
           title="Maquetador"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="logo-gitlab"
         />
         <Card
+          class="mb-5"
           title="Nuevas Tecnologias"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="logo-github"
@@ -95,6 +96,63 @@
       class="mt-5"
     />
   </div>
+  <div class="container-fluid mt-5" id="Experiencias">
+    <div class="container">
+      <div class="row text-left">
+        <div class="container col-12 col-md-6 mt-5">
+          <div class="contain-titulo-experiencia mb-5">
+            <h2>Education</h2>
+          </div>
+          <Experiencias
+            class="mb-4"
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+          <Experiencias
+            class="mb-4"
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+          <Experiencias
+            class="mb-4"
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+        </div>
+        <div class="container col-12 col-md-6 mt-5">
+          <div class="contain-titulo-experiencia mb-5">
+            <h2>Experiencias</h2>
+          </div>
+          <Experiencias
+            class="mb-4"
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+          <Experiencias
+            class="mb-4"
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+          <Experiencias
+            desde="2010"
+            hasta= "2021"
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -103,12 +161,13 @@ import Content from '@/components/Content'
 import Barra from '../components/Barra'
 import Card from '../components/Card'
 import Proyectos from '../components/Proyectos'
+import Experiencias from '../components/Experiencias'
 
 
 export default {
   name: 'Home',
   components: {
-    Jumbotron,Content,Barra,Card, Proyectos,
+    Jumbotron,Content,Barra,Card, Proyectos,Experiencias
   }
 }
 </script>
@@ -128,7 +187,7 @@ export default {
 }
 
 .labores{
-    background: #23232393;  /* fallback for old browsers */
+  background: #23232393;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #000000d6, #121111c0), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
@@ -138,4 +197,18 @@ export default {
   min-height: 100vh;
 }
 
+#Experiencias{
+  background: #23232393;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00000098, #12111193);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00000098, #12111193), url("../assets/bg-experiencias.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contain-titulo-experiencia{
+  color: #fff;
+}
 </style>

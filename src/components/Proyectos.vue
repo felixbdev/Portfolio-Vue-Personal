@@ -1,8 +1,10 @@
 <template>
-  <div class="row justify-content-center">
-    <div class="button" v-for="button in button" :key="button.id">
-      <button>{{button.language}}</button>
+  <div class="row justify-content-center m-4">
+    <div class="button m-1 p-1 " v-for="button in button" :key="button.id">
+      <button class="btn btn-outline-success">{{button.language}}</button>
     </div>
+  </div>
+  <div class="row justify-content-center">
 
     <div class="card mt-3 col-12 col-lg-3 justify-content-center " id="card-api" v-for="item in proyecto" :key="item.id">
       <h5>{{item.name}}</h5>
@@ -47,7 +49,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   #card-api{
     padding: 15px;
     margin: 0px 30px;
