@@ -46,7 +46,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Bootstrap</span>
         <Barra
-          progres= 80
+          :progres="80"
         />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
