@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 col-md-3 card">
+  <div class="col-12 col-md-3 card mt-5">
     <div class="icon">
       <ion-icon :name="icon"></ion-icon>
     </div>
@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .card{
   background: rgba(164, 164, 164, 0.181);
-  height: 300px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
