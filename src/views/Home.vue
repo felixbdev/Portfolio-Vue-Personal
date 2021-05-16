@@ -153,6 +153,13 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid mt-5" id="Footer">
+    <div class="row">
+      <div class="col-12">
+        <Footer/>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -162,12 +169,13 @@ import Barra from '../components/Barra'
 import Card from '../components/Card'
 import Proyectos from '../components/Proyectos'
 import Experiencias from '../components/Experiencias'
+import Footer from '../components/Footer'
 
 
 export default {
   name: 'Home',
   components: {
-    Jumbotron,Content,Barra,Card, Proyectos,Experiencias
+    Jumbotron,Content,Barra,Card, Proyectos,Experiencias,Footer
   }
 }
 </script>
@@ -210,5 +218,9 @@ export default {
 
 .contain-titulo-experiencia{
   color: #fff;
+}
+
+#Footer{
+    background-color: #222222;
 }
 </style>
