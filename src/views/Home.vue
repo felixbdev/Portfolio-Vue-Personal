@@ -90,7 +90,8 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
+    <h2>Proyectos Realizados</h2>
     <Proyectos
       class="mt-5"
     />

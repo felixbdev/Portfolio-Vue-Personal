@@ -1,16 +1,17 @@
 <template>
   <div class="row justify-content-center">
-    <div class="button" v-for="button in button" :key="button.id">
-      <button>{{button.language}}</button>
+    <div class="button mt-4" v-for="filtro in button" :key="filtro.id">
+      <button>{{filtro.language}}</button>
     </div>
-
+  </div>
+  <div class="row">
     <div class="card mt-3 col-12 col-lg-3 justify-content-center " id="card-api" v-for="item in proyecto" :key="item.id">
       <h5>{{item.name}}</h5>
       <span>{{item.id}}</span>
       <span>{{item.language}}</span>
     </div>
-  </div>
 
+  </div>
 </template>
 
 <script>
@@ -20,6 +21,7 @@ export default {
     return {
       proyecto: {},
       button:[],
+
     }
   },
   methods: {
@@ -30,20 +32,17 @@ export default {
         //console.log(object)
         this.proyecto = object
         this.button = object
-        console.log(this.button)
+
 
       } catch (error) {
         console.log(error)
       }
     },
-    filtrarArray(){
-      console.log(this.button)
-    }
   },
   created(){
     this.consumirApi()
-    this.filtrarArray()
-  }
+  },
+
 }
 </script>
 
