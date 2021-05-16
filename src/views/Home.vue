@@ -99,8 +99,8 @@
   <div class="container-fluid mt-5" id="Experiencias">
     <div class="container">
       <div class="row text-left">
-        <div class="container col-12 col-md-6 mt-4">
-          <div class="contain-titulo-experiencia mb-4">
+        <div class="container col-12 col-md-6 mt-5">
+          <div class="contain-titulo-experiencia mb-5">
             <h2>Education</h2>
           </div>
           <Experiencias
@@ -125,8 +125,8 @@
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
         </div>
-        <div class="container col-12 col-md-6 mt-4">
-          <div class="contain-titulo-experiencia mb-4">
+        <div class="container col-12 col-md-6 mt-5">
+          <div class="contain-titulo-experiencia mb-5">
             <h2>Experiencias</h2>
           </div>
           <Experiencias
