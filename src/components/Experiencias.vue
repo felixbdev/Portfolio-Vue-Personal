@@ -37,7 +37,9 @@ export default {
     border: 2px solid green;
     width: 100px;
     text-align: center;
+    padding-top: 2px;
   }
+
 
   hr{
     background: whitesmoke;
