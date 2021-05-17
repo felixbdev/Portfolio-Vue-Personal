@@ -19,8 +19,8 @@ export default {
   name: "Experiencias",
   props:{
     title: String,
-    desde: Number,
-    hasta: Number,
+    desde: String,
+    hasta: String,
     experiencia: String,
     resumen: String
   }

@@ -93,7 +93,6 @@
   </div>
   <div class="container-fluid">
     <Proyectos
-      class="mt-5"
     />
   </div>
   <div class="container-fluid mt-5" id="Experiencias">
@@ -105,22 +104,22 @@
           </div>
           <Experiencias
             class="mb-4"
-            desde="2010"
-            hasta= "2021"
+            desde=2010
+            hasta=2021
+            experiencia="Titulo de la experiencia"
+            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+          />
+          <Experiencias
+            class="mb-4"
+            desde=2010
+            hasta=2021
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
           <Experiencias
             class="mb-4"
             desde="2010"
-            hasta= "2021"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
-          />
-          <Experiencias
-            class="mb-4"
-            desde="2010"
-            hasta= "2021"
+            hasta="2021"
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
@@ -132,20 +131,20 @@
           <Experiencias
             class="mb-4"
             desde="2010"
-            hasta= "2021"
+            hasta="2021"
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
           <Experiencias
             class="mb-4"
             desde="2010"
-            hasta= "2021"
+            hasta="2021"
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
           <Experiencias
             desde="2010"
-            hasta= "2021"
+            hasta="2021"
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
