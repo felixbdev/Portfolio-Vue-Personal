@@ -29,10 +29,10 @@ export default {
       try {
         const data = await fetch ('https://api.github.com/users/felixbdev/repos')
         const object = await data.json()
-        //console.log(object)
+        console.log(object)
         this.proyecto = object
         this.button = object
-        console.log(this.button)
+        //console.log(this.button)
 
       } catch (error) {
         console.log(error)
