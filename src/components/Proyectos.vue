@@ -1,7 +1,7 @@
 <template>
   <div class="row justify-content-center m-4">
-    <div class="button m-1 p-1 " v-for="button in button" :key="button.id">
-      <button class="btn btn-outline-success">{{button.language}}</button>
+    <div class="button m-1 p-1 " v-for="(lenguaje, index) in button" :key="index">
+      <button class="btn btn-outline-success" @click="filtrar(lenguaje)">{{lenguaje}}</button>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -29,22 +29,30 @@ export default {
       try {
         const data = await fetch ('https://api.github.com/users/felixbdev/repos')
         const object = await data.json()
-        console.log(object)
         this.proyecto = object
-        this.button = object
-        //console.log(this.button)
+        object.forEach(element => {
+          if (element.language) {
+            this.button.push(element.language)
+          }
+        });
+        this.filtrarArray()
 
       } catch (error) {
         console.log(error)
       }
     },
     filtrarArray(){
-      console.log(this.button)
+      let result = this.button.filter((item,index)=>{
+        return this.button.indexOf(item) === index;
+      })
+      this.button = result
+    },
+    filtrar(lenguaje) {
+      console.log(lenguaje.toLowerCase());
     }
   },
   created(){
     this.consumirApi()
-    this.filtrarArray()
   }
 }
 </script>
