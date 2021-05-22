@@ -49,7 +49,9 @@ export default {
     },
     filtrar(lenguaje) {
       console.log(lenguaje.toLowerCase());
-    }
+      console.log(this.item.language)
+
+      }
   },
   created(){
     this.consumirApi()
