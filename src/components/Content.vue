@@ -1,5 +1,5 @@
 <template>
-        <div class="text-center">
+        <div>
           <h2>{{tittle}}</h2>
           <p class="mt-4">{{content}}</p>
         </div>

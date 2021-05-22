@@ -1,27 +1,34 @@
 <template>
-  <div class="about">
+  <div class="about"></div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="container-image">
+          <img src="../assets/about-me.jpg" alt="" class="img-thumbnail">
+        </div>
+      </div>
+      <div class="col-12">
+        <Content
+        class="text-left"
+        tittle= "About me"
+        />
+      </div>
+    </div>
   </div>
 
-<div class="container d-flex">
-  <div class="img">
-    <img src="../assets/avatar.png" alt="">
-  </div>
-  <Content 
-  tittle= "Sobre mi"
-  content= "loremdekiefkfekiefikefkfekifekifelsdfhhhhhhhhhhh" 
-  />
-</div>
 </template>
 
 
 <script>
-import Content from "../components/Content.vue"
+  import Content from '../components/Content'
+
 
 export default {
+
   name: "About",
   components: {
     Content
-  }  
+  }
 }
 </script>
 
@@ -39,24 +46,11 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
-  
+
 }
 
-.container{
-  margin-top: 15px;
-  flex-direction: column;
-}
 
-.img{
-  height: auto;
-  border: 1px solid blue;
-  width: 290px;
-  margin: 0px auto ;
-}
 
-.img img{
-  width: 300px;
-}
 
 
 </style>
