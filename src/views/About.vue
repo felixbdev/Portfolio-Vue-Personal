@@ -1,7 +1,7 @@
 <template>
   <div class="about"></div>
-  <div class="container mt-4">
-    <div class="row p-3 align-items-center">
+  <div class="container-fluid background">
+    <div class="row p-5 align-items-center">
       <div class="col-12 col-lg-6">
         <div class="container-image">
           <img src="../assets/about-me.jpg" alt="" class="img-thumbnail" />
@@ -9,7 +9,7 @@
       </div>
       <div class="col-12 col-lg-6">
         <Content
-          class="text-left mt-4"
+          class="text-left text"
           tittle="About me"
           content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet non porro laboriosam rerum fugiat quod ullam earum dignissimos corporis, nemo provident nostrum, nihil culpa. Et corrupti sit hic amet, animi unde cumque consequuntur omnis ad nihil optio id eum qui, impedit deleniti? Veniam eum aspernatur incidunt? Doloremque, cum? Repellendus consectetur, cupiditate tenetur provident neque, quas, totam eveniet nisi eius veritatis ea maiores ducimus a reprehenderit minima magnam dicta! Aliquam
           libero voluptatum facilis dolorum architecto? Doloribus fuga voluptate voluptatem corporis rem! Culpa nam et accusamus beatae!"
@@ -21,23 +21,21 @@
     </div>
   </div>
 
-  <div class="container-fluid bienvenida mt-5">
-    <div class="container">
-      <Content
-        class="text-center"
-        tittle="Welcome To My Site"
-        content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
+  <div class="container-fluid bienvenida text-white mt-1 p-5">
+    <Content
+      class="text-center"
+      tittle="Welcome To My Site"
+      content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
     am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-      />
-      <div class="row justify-content-around">
-        <CardWhite />
-        <CardWhite />
-        <CardWhite class="mb-5" />
-      </div>
+    />
+    <div class="row justify-content-around">
+      <CardWhite />
+      <CardWhite />
+      <CardWhite class="mb-5" />
     </div>
   </div>
 
-  <div class="container-fluid mt-5" id="Footer">
+  <div class="container-fluid mt-1" id="Footer">
     <div class="row">
       <div class="col-12">
         <Footer />
@@ -65,17 +63,9 @@ export default {
 
 <style scoped>
 .about {
-  background: #00000093; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #00000069
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00000070, #00000067),
-    url("../assets/bg-about.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100px;
+  background: #070606; /* fallback for old browsers */
+
+  height: 80px;
 }
 
 #Footer {
@@ -83,6 +73,21 @@ export default {
 }
 
 .bienvenida {
-  background: #edf6f9;
+  background: #23232393;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #1211116b), url("../assets/bg-2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.background{
+  background-color: #fca311 ;
+}
+
+.text{
+  color: #000;
 }
 </style>

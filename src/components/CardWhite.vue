@@ -26,6 +26,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  border-radius: 10px;
 }
 
 .icon {

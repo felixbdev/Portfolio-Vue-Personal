@@ -1,12 +1,12 @@
 <template>
   <div id="nav">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <a class="navbar-brand" href="/">Felix Bonillo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse background" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
             <router-link class="link" to="/">Home</router-link>
@@ -51,11 +51,11 @@ export default {
 }
 
 #nav {
-  padding: 20px;
+  padding: 10px;
 }
 
 #nav li{
-  padding: 5px 10px;
+  padding: 4px 10px;
   margin-left: 6px;
 }
 
@@ -70,10 +70,6 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
-
-.background{
-  background: #1A1D2D;
 }
 
 

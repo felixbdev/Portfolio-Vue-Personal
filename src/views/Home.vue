@@ -69,7 +69,7 @@
         cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
         class="text-white pt-4"
       />
-      <div class="row justify-content-around mt-2 card-presentacion">
+      <div class="row justify-content-around mt-5 card-presentacion">
         <Card
           class="mb-2"
           title="Frontend"
@@ -185,7 +185,7 @@ export default {
   position: relative;
   background: #00000093;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000a4, #000000d7), url("../assets/fondojumbotron.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #0000006b, #00000083), url("../assets/fondojumbotron.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -207,7 +207,7 @@ export default {
 #Experiencias{
   background: #23232393;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #00000098, #12111193);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #00000098, #12111193), url("../assets/bg-experiencias.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #000000bb, #121111af), url("../assets/bg-experiencias.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
