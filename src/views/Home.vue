@@ -72,21 +72,21 @@
       <div class="row justify-content-around mt-5 card-presentacion">
         <Card
           class="mb-2"
-          title="Frontend"
+          title="Maquetado"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
           icon="brush"
         />
         <Card
           class="mb-2"
-          title="Maquetador"
+          title="Git"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-          icon="logo-gitlab"
+          icon="git-branch-sharp"
         />
         <Card
           class="mb-5"
-          title="Nuevas Tecnologias"
+          title="Terminal"
           text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-          icon="logo-github"
+          icon="terminal-outline"
         />
       </div>
     </div>
@@ -100,12 +100,12 @@
       <div class="row text-left">
         <div class="container col-12 col-md-6 mt-5">
           <div class="contain-titulo-experiencia mb-5">
-            <h2>Education</h2>
+            <h2>Educacion</h2>
           </div>
           <Experiencias
             class="mb-4"
-            desde=2010
-            hasta=2021
+            desde=2020
+            hasta="Actual"
             experiencia="Titulo de la experiencia"
             resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
           />
@@ -196,7 +196,7 @@ export default {
 .labores{
   background: #23232393;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #0000009c, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #00000089, #12111173), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #00000079, #12111100), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

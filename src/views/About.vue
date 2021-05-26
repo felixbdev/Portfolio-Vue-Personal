@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div class="container-fluid bienvenida text-white mt-1 p-5">
+  <div class="container-fluid bienvenida text-white mt-2 p-5">
     <Content
       class="text-center"
       tittle="Welcome To My Site"
@@ -75,7 +75,7 @@ export default {
 .bienvenida {
   background: #23232393;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000, #1211116b), url("../assets/bg-2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #000000d7, #1211113f), url("../assets/bg-2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

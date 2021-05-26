@@ -23,7 +23,6 @@ export default {
   height: auto;
   width: 100%;
   margin: auto;
-  border: 1px solid red;
 
 }
 

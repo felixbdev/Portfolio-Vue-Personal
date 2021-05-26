@@ -1,5 +1,5 @@
 <template>
-  <button class="btn btn-success">
+  <button class="btn">
     {{text}}
   </button>
 </template>
@@ -15,5 +15,12 @@ export default {
 </script>
 
 <style>
+  .btn{
+    background-color: #14213d;
+    color: white;
+  }
 
+  .btn:hover{
+    color: #fca311;
+  }
 </style>

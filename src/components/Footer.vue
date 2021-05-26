@@ -2,16 +2,16 @@
   <div class="container">
     <div class="row contenedor-iconos container justify-content-center">
       <div class="contenedor-icon mr-2">
-        <Icon class="centrado" icon="logo-gitlab" />
+        <Icon class="centrado" icon="logo-github" />
       </div>
       <div class="contenedor-icon mr-2">
-        <Icon class="centrado" icon="logo-gitlab" />
+        <Icon class="centrado" icon="logo-facebook" />
       </div>
       <div class="contenedor-icon mr-2">
-        <Icon class="centrado" icon="logo-gitlab" />
+        <Icon class="centrado" icon="logo-instagram" />
       </div>
       <div class="contenedor-icon">
-        <Icon class="centrado" icon="logo-gitlab" />
+        <Icon class="centrado" icon="logo-twitter" />
       </div>
     </div>
   </div>
