@@ -32,6 +32,7 @@ export default {
 ion-icon{
   color: #AAAAAA;
   text-align: center;
+  cursor: pointer;
 
 
 }

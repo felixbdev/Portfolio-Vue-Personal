@@ -41,7 +41,7 @@ export default {
 <style scoped>
 #footer {
   height: 180px;
-  border: 1px solid red;
+
 }
 
 .row {
@@ -69,6 +69,8 @@ hr {
 }
 
 .centrado {
-  margin: auto;
+  margin: auto 10px;
 }
+
+
 </style>

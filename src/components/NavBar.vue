@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse background" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
             <router-link class="link" to="/">Home</router-link>
@@ -55,8 +55,8 @@ export default {
 }
 
 #nav li{
-  padding: 6px;
-  margin-left: 5px;
+  padding: 5px 10px;
+  margin-left: 6px;
 }
 
 .link{
@@ -71,6 +71,12 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.background{
+  background: #1A1D2D;
+}
+
+
 
 
 </style>
