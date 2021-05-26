@@ -18,7 +18,7 @@ export default {
 
 
 .contenedor{
-  border: 1px solid green;
+  border: .5px solid rgba(255, 255, 255, 0.26);
   border-radius: 50px;
   font-size: 28px;
   height: 60px;
@@ -40,7 +40,6 @@ ion-icon:hover{
   color: green;
 
 }
-
 
 
 </style>

@@ -1,9 +1,7 @@
 <template>
   <div class="contain">
-    <div class="text-center">
         <h2>{{tittle}}</h2>
         <p class="mt-4">{{content}}</p>
-    </div>
   </div>
 </template>
 
