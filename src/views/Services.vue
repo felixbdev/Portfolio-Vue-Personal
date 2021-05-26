@@ -16,10 +16,11 @@ export default {
     #434343,
     #00000069
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00000070, #00000067),
-    url("../assets/bg-about.jpg");
+  background: linear-gradient(to right, #00000029, #00000030),
+    url("../assets/bg-services.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100px;
   }
 </style>
