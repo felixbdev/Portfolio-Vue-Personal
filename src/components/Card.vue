@@ -34,8 +34,6 @@ export default {
   margin: 20px auto 5px;
   height: auto;
   width: 60px;
-
-  border: 1px solid red;
 }
 
 h5{
@@ -51,7 +49,7 @@ h5{
 }
 
 ion-icon{
-  color: green;
+  color: #fca311;
   font-size: 50px;
 }
 

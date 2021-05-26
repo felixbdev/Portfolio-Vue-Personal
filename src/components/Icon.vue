@@ -38,7 +38,8 @@ ion-icon{
 }
 
 ion-icon:hover{
-  color: green;
+  color:
+  #fca311;
 
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="contain">
     <div class="contain-fecha mb-3 mt-1">
-      <span>{{desde}}-{{hasta}}</span>
+      <span>{{desde}} - {{hasta}}</span>
     </div>
     <div class="contain-title-experiencia mb-3">
       <h5>{{experiencia}}</h5>
@@ -34,10 +34,10 @@ export default {
   }
 
   .contain-fecha{
-    border: 2px solid green;
-    width: 100px;
+    border: 2px solid #fca311;
+    width: 105px;
     text-align: center;
-    padding-top: 2px;
+    padding: 2px;
   }
 
 

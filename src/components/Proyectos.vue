@@ -49,8 +49,6 @@ export default {
     },
     filtrar(lenguaje) {
       console.log(lenguaje.toLowerCase());
-      console.log(this.item.language)
-
       }
   },
   created(){
@@ -66,9 +64,6 @@ export default {
     height: 230px;
   }
 
-  .row{
-    border: 1px solid red;
-  }
 
   .btn{
     background-color: e5e5e5;
