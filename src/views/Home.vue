@@ -152,7 +152,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid mt-5" id="Footer">
+  <div class="container-fluid mt-2" id="Footer">
     <div class="row">
       <div class="col-12">
         <Footer/>
