@@ -69,7 +69,7 @@
         cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
         class="text-white pt-4"
       />
-      <div class="row justify-content-around mt-2 card-presentacion">
+      <div class="row justify-content-around mt-5 card-presentacion">
         <Card
           class="mb-2"
           title="Frontend"
@@ -91,7 +91,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid proyectos">
     <Proyectos
     />
   </div>
@@ -152,7 +152,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid mt-5" id="Footer">
+  <div class="container-fluid mt-2" id="Footer">
     <div class="row">
       <div class="col-12">
         <Footer/>
@@ -184,8 +184,8 @@ export default {
 .home{
   position: relative;
   background: #00000093;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000a4, #000000d7), url("../assets/fondojumbotron.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #43434361, #00000077);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00000071, #000000ad), url("../assets/fondojumbotron.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -195,8 +195,8 @@ export default {
 
 .labores{
   background: #23232393;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000d6, #121111c0), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #0000009c, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00000089, #12111173), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -204,10 +204,14 @@ export default {
   min-height: 100vh;
 }
 
+.proyectos{
+  background: #14213d;
+}
+
 #Experiencias{
   background: #23232393;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #00000098, #12111193);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #00000098, #12111193), url("../assets/bg-experiencias.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #000000bb, #121111af), url("../assets/bg-experiencias.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
