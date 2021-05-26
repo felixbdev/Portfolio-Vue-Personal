@@ -1,15 +1,15 @@
 <template>
-  <div class="row justify-content-center m-4">
-    <div class="button m-1 p-1 " v-for="(lenguaje, index) in button" :key="index">
-      <button class="btn btn-outline-success" @click="filtrar(lenguaje)">{{lenguaje}}</button>
+  <div class="row justify-content-center p-3">
+    <div class="button p-1 " v-for="(lenguaje, index) in button" :key="index">
+      <button class="btn btn-outline-warning" @click="filtrar(lenguaje)">{{lenguaje}}</button>
     </div>
   </div>
-  <div class="row justify-content-center">
-
-    <div class="card mt-3 col-12 col-lg-3 justify-content-center " id="card-api" v-for="item in proyecto" :key="item.id">
-      <h5>{{item.name}}</h5>
-      <span>{{item.id}}</span>
-      <span>{{item.language}}</span>
+  <div class="row justify-content-around">
+    <div class="card mt-3 col-12 col-lg-3 justify-content-center mb-4" id="card-api" v-for="item in proyecto" :key="item.id">
+      <div class="container">
+        <h6>{{item.name}}</h6>
+        <span>{{item.language}}</span>
+      </div>
     </div>
   </div>
 
@@ -68,6 +68,10 @@ export default {
 
   .row{
     border: 1px solid red;
+  }
+
+  .btn{
+    background-color: e5e5e5;
   }
 
 </style>

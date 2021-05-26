@@ -91,7 +91,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid proyectos">
     <Proyectos
     />
   </div>
@@ -195,8 +195,8 @@ export default {
 
 .labores{
   background: #23232393;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000d6, #121111c0), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #0000009c, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00000089, #12111173), url("../assets/bg-3.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -204,6 +204,9 @@ export default {
   min-height: 100vh;
 }
 
+.proyectos{
+  background: #14213d;
+}
 
 #Experiencias{
   background: #23232393;  /* fallback for old browsers */

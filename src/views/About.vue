@@ -28,7 +28,7 @@
       content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
     am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
     />
-    <div class="row justify-content-around">
+    <div class="row justify-content-around mt-5">
       <CardWhite />
       <CardWhite />
       <CardWhite class="mb-5" />
@@ -80,7 +80,6 @@ export default {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 
 .background{

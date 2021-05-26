@@ -69,7 +69,7 @@ hr {
 }
 
 .centrado {
-  margin: auto 10px;
+  margin: auto 3px;
 }
 
 
