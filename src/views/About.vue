@@ -64,7 +64,6 @@ export default {
 <style scoped>
 .about {
   background: #070606; /* fallback for old browsers */
-
   height: 80px;
 }
 
@@ -88,5 +87,9 @@ export default {
 
 .text{
   color: #000;
+}
+
+.container-image > img{
+  border-radius: 8px;
 }
 </style>

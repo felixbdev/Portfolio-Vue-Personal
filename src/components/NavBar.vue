@@ -15,9 +15,6 @@
             <router-link class="link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="link" to="/services">Services</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="link" to="/contact">Contact</router-link>
           </li>
         </ul>
@@ -69,10 +66,16 @@ export default {
 
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #fca311
 }
 
+#nav .navbar-brand{
+  color: #fff
+}
 
+#nav .navbar-brand:hover{
+  color: #fca311;
+}
 
 
 </style>

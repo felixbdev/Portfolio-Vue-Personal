@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .card{
-  background: rgba(164, 164, 164, 0.181);
+  background: rgba(14, 4, 4, 0.541);
   height: 280px;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ h5{
 }
 
 .card:hover{
-  background: rgba(0, 0, 0, 0.712);
+  background: #14213d
 }
 
 .title,.text {
