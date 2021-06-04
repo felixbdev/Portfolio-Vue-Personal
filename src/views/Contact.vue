@@ -47,7 +47,7 @@ export default {
   }
 
   .contact-us{
-    padding-bottom: 200px;
+    padding-bottom: 150px;
   }
 
   .contenedor{
