@@ -91,11 +91,14 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid proyectos">
+  <div class="container-fluid proyectos mt-1 mb-2">
+    <div class="container p-3">
+      <h1>Proyectos</h1>
+    </div>
     <Proyectos
     />
   </div>
-  <div class="container-fluid mt-5" id="Experiencias">
+  <div class="container-fluid mt-2" id="Experiencias">
     <div class="container">
       <div class="row text-left">
         <div class="container col-12 col-md-6 mt-5">
@@ -205,7 +208,7 @@ export default {
 }
 
 .proyectos{
-  background: #14213d;
+  background: #fff;
 }
 
 #Experiencias{

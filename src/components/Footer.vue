@@ -65,7 +65,7 @@ hr {
 }
 
 .footer-link:hover {
-  color: green;
+  color: #fca311;
 }
 
 .centrado {
