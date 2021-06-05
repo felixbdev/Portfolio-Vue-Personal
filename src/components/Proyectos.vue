@@ -51,7 +51,7 @@ export default {
         );
         const object = await data.json();
         this.proyecto = object;
-        console.log(object);
+        //console.log(object);
         /*object.forEach(element => {
           if (element.language) {
             this.button.push(element.language)

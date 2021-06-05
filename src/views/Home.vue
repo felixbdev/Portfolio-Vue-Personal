@@ -178,7 +178,7 @@ export default {
   name: 'Home',
   components: {
     Jumbotron,Content,Barra,Card, Proyectos,Experiencias,Footer
-  }
+  },
 }
 </script>
 

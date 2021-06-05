@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse rastreador" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
             <router-link class="link" to="/">Home</router-link>
@@ -28,7 +28,22 @@
 export default {
     name: 'NavBar',
     components: {
+    },
+    methods: {
+    widthScreen(){
+      const width = screen.width
+      console.log(width)
+      const colorNav = document.getElementsByClassName('rastreador')
+      console.log(colorNav)
+      if(width < 996){
+        console.log('Es menor')
+      }
+
     }
+  },
+  created(){
+    this.widthScreen()
+  }
 
 }
 </script>
@@ -75,6 +90,10 @@ export default {
 
 #nav .navbar-brand:hover{
   color: #fca311;
+}
+
+.fondo-mobile{
+  background: #000;
 }
 
 
