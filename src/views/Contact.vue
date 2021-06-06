@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
   .contact{
-    background: #070606; /* fallback for old browsers */
+    background: #000; /* fallback for old browsers */
     height: 80px;
   }
 
@@ -47,7 +47,7 @@ export default {
   }
 
   .contact-us{
-    padding-bottom: 200px;
+    padding-bottom: 150px;
   }
 
   .contenedor{
