@@ -63,7 +63,7 @@ export default {
 
 <style scoped>
 .about {
-  background: #070606; /* fallback for old browsers */
+  background: #000; /* fallback for old browsers */
   height: 80px;
 }
 

@@ -1,12 +1,12 @@
 <template>
-  <div id="nav">
+  <div id="nav" @click="closeNavbar">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <a class="navbar-brand" href="/">Felix Bonillo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse rastreador" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse rastreador"  id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
             <router-link class="link" to="/">Home</router-link>
@@ -32,16 +32,25 @@ export default {
     methods: {
     widthScreen(){
       const width = screen.width
-      console.log(width)
-      const colorNav = document.getElementsByClassName('rastreador')
-      console.log(colorNav)
-      if(width < 996){
-        console.log('Es menor')
+      //console.log(width)
+      const colorNav = document.getElementById('navbarSupportedContent')
+      //console.log(colorNav)
+      if(width <= 991){
+        //console.log('Es menor')
+        colorNav.classList.add('bg-dark')
+      }
+    },
+    closeNavbar(e){
+      const showNavbar = document.getElementById('navbarSupportedContent')
+      //console.log(e.target)
+      if(e.target.classList.contains('nav-item') || e.target.classList.contains('router-link-active')) {
+        showNavbar.classList.toggle('show')
       }
 
     }
+
   },
-  created(){
+  mounted(){
     this.widthScreen()
   }
 
@@ -92,9 +101,6 @@ export default {
   color: #fca311;
 }
 
-.fondo-mobile{
-  background: #000;
-}
 
 
 </style>
