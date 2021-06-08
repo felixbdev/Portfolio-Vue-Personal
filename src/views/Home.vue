@@ -7,7 +7,7 @@
     </div>
   </div>
 
-  <div class="container text-center" id="bienvenida">
+  <div class="container text-center " id="bienvenida">
     <div class="row">
       <div class="container col-12 mt-5">
         <Content
@@ -179,6 +179,7 @@ import Card from '../components/Card'
 import Proyectos from '../components/Proyectos'
 import Experiencias from '../components/Experiencias'
 import Footer from '../components/Footer'
+
 
 
 export default {

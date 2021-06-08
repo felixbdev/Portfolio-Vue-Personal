@@ -24,7 +24,7 @@
   <div class="container-fluid bienvenida text-white mt-2 p-5">
     <Content
       class="text-center"
-      tittle="Welcome To My Site"
+      tittle="Que puedo aportar"
       content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
     am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
     />

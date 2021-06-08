@@ -23,6 +23,8 @@ export default {
   text-align: center;
 }
 
+
+
 /*Scroll */
 
 ::-webkit-scrollbar{
@@ -36,5 +38,7 @@ export default {
     border-radius: 12px;
     background-color:  #fca211d5;
 }
+
+
 
 </style>

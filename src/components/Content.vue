@@ -1,7 +1,7 @@
 <template>
-  <div class="contain mt-4">
+  <div class="slideUp contain mt-4">
         <h2>{{tittle}}</h2>
-        <p class="mt-5">{{content}}</p>
+        <p class="mt-3">{{content}}</p>
   </div>
 </template>
 
@@ -16,6 +16,9 @@ export default {
     content: String
   },
 }
+
+
+
 </script>
 
 <style scoped>
@@ -23,6 +26,7 @@ export default {
   height: auto;
   width: 100%;
   margin: auto;
+  visibility: hidden;
 
 }
 
