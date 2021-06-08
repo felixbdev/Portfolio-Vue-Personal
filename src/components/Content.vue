@@ -1,7 +1,7 @@
 <template>
   <div class="contain mt-4">
         <h2>{{tittle}}</h2>
-        <p class="mt-4">{{content}}</p>
+        <p class="mt-5">{{content}}</p>
   </div>
 </template>
 
@@ -27,7 +27,14 @@ export default {
 }
 
 h2{
-  font-weight: bold;
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+
+p{
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
 }
 
 </style>

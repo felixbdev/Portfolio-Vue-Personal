@@ -98,7 +98,7 @@ export default {
   color: #000;
   border-radius: 10px;
   border: 2px solid #000;
-  transition: ease-in-out;
+  transition: cubic-bezier(.33,.6,.83,.67);
   transition-duration: 0.5s;
 }
 

@@ -33,6 +33,8 @@ ion-icon{
   color: #AAAAAA;
   text-align: center;
   cursor: pointer;
+  transition: ease-in;
+  transition-duration: .2s;
 
 
 }

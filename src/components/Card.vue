@@ -24,23 +24,27 @@ export default {
 <style scoped>
 .card{
   background: rgba(14, 4, 4, 0.541);
-  border-radius: 10px;
-  height: 280px;
+  border-radius: 0.625rem;
+  height: 17.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  transition: ease-in ;
+  transition: cubic-bezier(.33,.6,.83,.67);
   transition-duration: 0.3s;
 }
 
 .icon{
-  margin: 20px auto 5px;
+  margin: 1.25rem auto 0.3125rem;
   height: auto;
-  width: 60px;
+  width: 3.75rem;
 }
 
 h5{
-  font-weight: bold;
+  font-weight: 700;
+}
+
+p{
+  font-weight: 400;
 }
 
 .card:hover{
@@ -54,7 +58,7 @@ h5{
 
 ion-icon{
   color: #fca311;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 </style>

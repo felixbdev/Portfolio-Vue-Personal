@@ -31,6 +31,6 @@ export default {
 <style scoped>
   textarea{
     resize: none;
-    height: 170px;
+    height: 1.7rem;
   }
 </style>

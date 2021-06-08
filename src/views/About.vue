@@ -90,6 +90,6 @@ export default {
 }
 
 .container-image > img{
-  border-radius: 8px;
+  border-radius: 0.08rem;
 }
 </style>

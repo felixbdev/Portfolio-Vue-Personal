@@ -2,7 +2,7 @@
   <div class="home container-fluid" id="portada">
     <div class="row">
       <div class="col-12 container hero">
-        <Jumbotron titulo= "Hello, I'm Felix Bonillo" span = "Desarrollador Front-End"/>
+        <Jumbotron titulo= "Hola, soy Felix Bonillo" span = "Desarrollador Front-End"/>
       </div>
     </div>
   </div>
@@ -12,11 +12,10 @@
       <div class="container col-12 mt-5">
         <Content
           class="text-black"
-          tittle='Welcome To my Site'
-          content="Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
-          sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          tittle='Bienvenido a mi sitio'
+          content="Es un placer darte la bienvenida a mi portafolio, en el cual encontrar informacion sobre mi formacion academica
+          , sobre los trabajos que he realizado de manera individual desarrollando mis capacidades y habilidades, actualmente soy
+          estudiante universitario de la carrera de informatica."
         />
       </div>
     </div>
@@ -25,17 +24,21 @@
     <div class="row mt-5 text-left">
       <div class="col-12 col-md-6 col-lg-4 mb-5 ">
         <span>HTML</span>
-        <Barra/>
+        <Barra
+        :progres="85"
+        />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>CSS</span>
         <Barra
-
+          :progres="80"
         />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Javascript</span>
-        <Barra/>
+        <Barra
+        :progres="60"
+        />
       </div>
     </div>
 
@@ -46,25 +49,29 @@
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Bootstrap</span>
         <Barra
-          :progres="80"
+          :progres="70"
         />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Vue js</span>
-        <Barra/>
+        <Barra
+        :progres="45"
+        />
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-5">
         <span>Web Responsive</span>
-        <Barra/>
+        <Barra
+        :progres="90"
+        />
       </div>
     </div>
   </div>
 
 
   <div class="labores container-fluid bg-danger mt-5" id="skills">
-    <div class="container ">
+    <div class="container pt-2 ">
       <Content
-        tittle="I'm Available For Hire"
+        tittle="Tengo conocimientos extras"
         content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
         cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
         class="text-white pt-4"
@@ -73,27 +80,27 @@
         <Card
           class="mb-2"
           title="Maquetado"
-          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          text="Planificación, conceptualización y organización de contenido de un sitio web"
           icon="brush"
         />
         <Card
           class="mb-2"
-          title="Git"
-          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+          title="Control de versiones"
+          text="Uso y manejo de control de versiones Git "
           icon="git-branch-sharp"
         />
         <Card
           class="mb-5"
-          title="Terminal"
-          text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-          icon="terminal-outline"
+          title="Diseño Responsive"
+          text="Sitio que responde de manera óptima cuando el usuario accede al sitio mediante dispositivos móviles. "
+          icon="tv-outline"
         />
       </div>
     </div>
   </div>
   <div class="container-fluid proyectos mt-1 mb-2">
-    <div class="container p-3">
-      <h1>Proyectos</h1>
+    <div class="container pt-4">
+      <h2>Proyectos</h2>
     </div>
     <Proyectos
     />
@@ -109,22 +116,22 @@
             class="mb-4"
             desde=2020
             hasta="Actual"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            experiencia="Instituto Universitario de Mercadotecnia ISUM"
+            resumen="Estudiante de 4° Trimestre en la carrera de informatica (Actual)"
           />
           <Experiencias
             class="mb-4"
-            desde=2010
+            desde=2020
             hasta=2021
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            experiencia="Jóvenes Programadores de BiblioRedes"
+            resumen="Certificado Javascript I"
           />
           <Experiencias
             class="mb-4"
-            desde="2010"
+            desde="2020"
             hasta="2021"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            experiencia="Jóvenes Programadores de BiblioRedes"
+            resumen="Certificado CSS"
           />
         </div>
         <div class="container col-12 col-md-6 mt-5">
@@ -133,23 +140,23 @@
           </div>
           <Experiencias
             class="mb-4"
-            desde="2010"
-            hasta="2021"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            desde=2021
+            hasta="Actual"
+            experiencia="Portafolio Personal"
+            resumen="Portafolio personal realizado con Vue js poniendo en practica mis destrezas y habilidades en el manejo de componentes."
           />
           <Experiencias
             class="mb-4"
-            desde="2010"
-            hasta="2021"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            desde="Abril"
+            hasta=2021
+            experiencia="Lista de Tareas"
+            resumen="App para registrar tareas pendientes y realizadas con Javascript"
           />
           <Experiencias
-            desde="2010"
-            hasta="2021"
-            experiencia="Titulo de la experiencia"
-            resumen="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nun"
+            desde="Abril"
+            hasta=2021
+            experiencia="Carrito de compras"
+            resumen="Realización de carrito de compras con sistema CRUD en Javascript"
           />
         </div>
       </div>
@@ -228,6 +235,15 @@ export default {
 
 #Footer{
     background-color: #222222;
+}
+
+span{
+  font-weight: 700;
+}
+
+h2{
+    font-size: 2.8125rem;
+  font-weight: 600;
 }
 
 </style>
