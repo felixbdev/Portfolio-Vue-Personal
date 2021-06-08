@@ -103,6 +103,8 @@ export default {
 
 .navbar-brand{
   font-weight: 700;
+  transition: ease;
+  transition-duration: .4s;
 }
 
 

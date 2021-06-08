@@ -242,7 +242,7 @@ span{
 }
 
 h2{
-    font-size: 2.8125rem;
+    font-size: 2.08125rem;
   font-weight: 600;
 }
 

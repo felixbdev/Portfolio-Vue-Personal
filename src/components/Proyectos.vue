@@ -85,19 +85,17 @@ export default {
 </script>
 
 <style scoped>
-*{
-  font-size: 13px;
-}
+
 
 
 #card-api {
-  margin: 10px 15px;
-  padding: 15px;
-  height: 230px;
+  margin: 0.625rem 0.9375rem;
+  padding: 0.9375rem;
+  height: 14.375rem;
   background: #ffffffa8;
   color: #000;
-  border-radius: 10px;
-  border: 2px solid #000;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #000;
   transition: cubic-bezier(.33,.6,.83,.67);
   transition-duration: 0.5s;
 }
@@ -106,7 +104,7 @@ export default {
   background: #14213d;
   color: #fff;
   transform: translateY(-10px);
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0rem 0.125rem 0.0625rem, rgba(0, 0, 0, 0.09) 0rem 0.25rem 0.125rem, rgba(0, 0, 0, 0.09) 0rem 0.5rem 0.25rem, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 
@@ -121,18 +119,32 @@ export default {
 
 .img-card{
 
-  height: 228px;
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 9px;
+  height: 14.25rem;
+  border-top-left-radius: 0.4375rem;
+  border-bottom-left-radius: 0.5625rem;
   background: #14213d;
 }
 
 
 .img-card > img{
   position: relative;
-  width: 110px;
-  margin-left: -17px;
-  margin-top: 20px;
+  width: 6.875rem;
+  margin-left: -1.0625rem;
+  margin-top: 1.25rem;
+}
 
+span{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 0.8125rem;
+  font-weight: 300;
 }
 </style>
