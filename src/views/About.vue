@@ -32,7 +32,6 @@
         <Cardimg icon="../assets/designer.png"/>
       </div>
     </div>
-      <img src="../assets/designer.png" alt="">
     <div class="container-fluid mt-1" id="Footer">
       <div class="row">
         <div class="col-12">
