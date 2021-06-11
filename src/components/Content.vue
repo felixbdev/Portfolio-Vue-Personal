@@ -1,12 +1,12 @@
 <template>
-  <div class="slideUp contain mt-4">
+      <div class="contain mt-4">
         <h2>{{tittle}}</h2>
         <p class="mt-3">{{content}}</p>
-  </div>
+      </div>
+
 </template>
 
 <script>
-
 export default {
   name: 'Content',
   components:{
@@ -26,8 +26,6 @@ export default {
   height: auto;
   width: 100%;
   margin: auto;
-  visibility: hidden;
-
 }
 
 h2{

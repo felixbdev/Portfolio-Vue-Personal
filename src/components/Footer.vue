@@ -2,16 +2,16 @@
   <div class="container">
     <div class="row contenedor-iconos container justify-content-center">
       <div class="contenedor-icon mr-2">
-        <a href="https://github.com/felixbdev"><Icon class="centrado" icon="logo-github" /></a>
+        <a href="https://github.com/felixbdev"><Icon class="centrado" icon="fab fa-github" /></a>
       </div>
       <div class="contenedor-icon mr-2">
-        <a href="https://www.linkedin.com/in/felix-bonillo-7ba89a1bb/"><Icon class="centrado" icon="logo-linkedin"/></a>
+        <a href="https://www.linkedin.com/in/felix-bonillo-7ba89a1bb/"><Icon class="centrado" icon="fab fa-linkedin"/></a>
       </div>
       <div class="contenedor-icon mr-2">
-        <a href="https://www.instagram.com/felixbdev/"><Icon class="centrado" icon="logo-instagram" /></a>
+        <a href="https://www.instagram.com/felixbdev/"><Icon class="centrado" icon="fab fa-instagram" /></a>
       </div>
       <div class="contenedor-icon">
-        <a href="https://twitter.com/felixbdev"><Icon class="centrado" icon="logo-twitter" /></a>
+        <a href="https://twitter.com/felixbdev"><Icon class="centrado" icon="fab fa-twitter" /></a>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ hr {
 }
 
 .centrado {
-  margin: auto 0.1875rem;
+  margin: auto;
 }
 
 

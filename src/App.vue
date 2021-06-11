@@ -1,17 +1,24 @@
 <template>
   <NavBar/>
-  <router-view/>
+  <router-view v-slot="{ Component }">
+    <transition
+      name="fade"
+      mode="out-in"
+    >
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
 
+
 export default {
   name: 'app',
   components: {
     NavBar
-  }
-
+  },
 }
 </script>
 
@@ -39,6 +46,28 @@ export default {
     background-color:  #fca211d5;
 }
 
+/*Efecto */
 
+.fadeTop {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1.3s;
+}
 
+.fadeRight {
+  opacity: 0;
+  transform: translate(10vh, 0vh);
+  transition: all 1s;
+}
+
+.fadeLeft {
+  opacity: 0;
+  transform: translate(-10vh, 0vh);
+  transition: all 1s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 </style>
