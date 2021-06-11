@@ -9,13 +9,13 @@
       <div class="collapse navbar-collapse rastreador"  id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-left mt-2">
           <li class="nav-item active">
-            <router-link class="link" to="/">Home</router-link>
+            <router-link class="link" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="link" to="/about">About</router-link>
+            <router-link class="link" to="/about">Sobre mi</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="link" to="/contact">Contact</router-link>
+            <router-link class="link" to="/contact">Contacto</router-link>
           </li>
         </ul>
       </div>
