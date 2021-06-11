@@ -1,7 +1,7 @@
 <template>
   <div class="col-12 col-md-3 card mt-5">
     <div class="icon">
-    <i :class="icon"></i>
+      <img :src="icon" alt="imagen">
     </div>
     <h5 class="title">{{title}}</h5>
     <p class="text">{{text}}</p>
@@ -56,8 +56,5 @@ p{
     color: #fff;
 }
 
-i{
-  font-size: 60px;
-  color: #fca311;
-}
+
 </style>
