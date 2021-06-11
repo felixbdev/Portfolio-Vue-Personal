@@ -1,13 +1,9 @@
 {
-  "about_me": "juujujujuju",
-  "skills": [
-    {
-      "lenguaje": "hola"
-    }
-  ],
-  "bienvenida": [
-    {
-      "titulo": "Bienvenido a mi sitio"
-    }
-  ]
+  "Bienvenida": {
+    "titulo": "Bienvenido a mi sitio web",
+    "contenido": "Es un placer darte la bienvenida a mi portafolio, en el cual encontrar informacion sobre mi formacion academica , sobre los trabajos que he realizado de manera individual desarrollando mis capacidades y habilidades, actualmente soy estudiante universitario de la carrera de informatica."
+  },
+  "Conocimientos": {
+    "titulo": "Tengo conocimientos extras"
+  }
 }
