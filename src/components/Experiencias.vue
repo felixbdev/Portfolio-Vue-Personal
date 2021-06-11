@@ -34,18 +34,18 @@ export default {
   }
 
   .contain-fecha{
-    border: 2px solid #fca311;
-    width: 105px;
+    border: 0.125rem solid #fca311;
+    width: 7.0625rem;
     text-align: center;
-    padding: 2px;
+    padding: 0.125rem;
   }
 
 
   hr{
     background: whitesmoke;
-    height: .1px;
+    height: 0.0063rem;
     width: 94%;
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 
 </style>

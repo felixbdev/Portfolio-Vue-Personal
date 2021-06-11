@@ -1,6 +1,6 @@
 <template>
   <div class="contenedor">
-        <ion-icon :name="icon"></ion-icon>
+        <i :class="icon"></i>
   </div>
 
 </template>
@@ -19,25 +19,27 @@ export default {
 
 .contenedor{
   border: .5px solid rgba(255, 255, 255, 0.26);
-  border-radius: 50px;
-  font-size: 28px;
-  height: 60px;
-  width: 60px;
+  border-radius: 3.125rem;
+  font-size: 1.75rem;
+  height: 3.75rem;
+  width: 3.75rem;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 0.75rem;
 
 }
 
 
-ion-icon{
+i{
   color: #AAAAAA;
   text-align: center;
   cursor: pointer;
+  transition: ease-in;
+  transition-duration: .2s;
 
 
 }
 
-ion-icon:hover{
+i:hover{
   color:
   #fca311;
 

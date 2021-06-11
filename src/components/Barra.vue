@@ -1,6 +1,6 @@
 <template>
   <div class="mt-2">
-    <div class="progress" style="height: 4px;">
+    <div class="progress" style="height: 0.1875rem;">
       <div class="progress-bar" :style = "{'width': progres+'%'}" role="progressbar" :aria-valuenow="progres" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
   </div>
@@ -11,9 +11,7 @@ export default {
   name: 'Barra',
   props: {
     progres: Number,
-
-  }
-
+  },
 }
 </script>
 

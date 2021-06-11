@@ -7,7 +7,7 @@
           <img id="img" :src="require('@/assets/avatar.png')" :alt="text" class="img-thumbnail rounded-circle">
         </div>
         <div class="info">
-          <h1 class="display-5 texto-blanco mt-3">{{titulo}}</h1>
+          <h1 class="display-5 texto-blanco mt-4">{{titulo}}</h1>
           <p class="lead text-white" >{{span}}</p>
         </div>
       </div>
@@ -39,10 +39,17 @@ export default {
 <style scoped>
 .texto-blanco{
   color:white;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.lead{
+  font-weight: 400 italic;
+  font-size: 1.5625rem;
 }
 
 #img {
-  width: 170px;
+  width: 10.625rem;
 }
 
 </style>

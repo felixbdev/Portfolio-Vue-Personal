@@ -1,44 +1,42 @@
 <template>
-  <div class="about"></div>
-  <div class="container-fluid background">
-    <div class="row p-5 align-items-center">
-      <div class="col-12 col-lg-6">
-        <div class="container-image">
-          <img src="../assets/about-me.jpg" alt="" class="img-thumbnail" />
+  <div class="about">
+    <div class="contact"></div>
+    <div class="container-fluid background">
+      <div class="row p-5 align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="container-image">
+            <img src="../assets/about-me.jpg" alt="" class="img-thumbnail" />
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-lg-6">
-        <Content
-          class="text-left text"
-          tittle="About me"
-          content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet non porro laboriosam rerum fugiat quod ullam earum dignissimos corporis, nemo provident nostrum, nihil culpa. Et corrupti sit hic amet, animi unde cumque consequuntur omnis ad nihil optio id eum qui, impedit deleniti? Veniam eum aspernatur incidunt? Doloremque, cum? Repellendus consectetur, cupiditate tenetur provident neque, quas, totam eveniet nisi eius veritatis ea maiores ducimus a reprehenderit minima magnam dicta! Aliquam
-          libero voluptatum facilis dolorum architecto? Doloribus fuga voluptate voluptatem corporis rem! Culpa nam et accusamus beatae!"
-        />
-        <div class="container-boton text-left mt-1">
-          <Boton class="btn-lg " text="About me" />
+        <div class="col-12 col-lg-6">
+          <Content
+            class="text-left text"
+            tittle="About me"
+            :content="about"
+          />
+          <div class="container-boton text-left mt-1">
+            <Boton class="btn-lg " text="About me" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid bienvenida text-white mt-2 p-5">
-    <Content
-      class="text-center"
-      tittle="Welcome To My Site"
-      content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
-    am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
-    />
-    <div class="row justify-content-around mt-5">
-      <CardWhite />
-      <CardWhite />
-      <CardWhite class="mb-5" />
+    <div class="container-fluid bienvenida text-white mt-2 p-5">
+      <Content
+        class="text-center"
+        tittle="Que puedo aportar"
+        content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
+      am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+      />
+      <div class="row justify-content-around mt-5">
+        <Cardimg icon="../assets/designer.png"/>
+      </div>
     </div>
-  </div>
-
-  <div class="container-fluid mt-1" id="Footer">
-    <div class="row">
-      <div class="col-12">
-        <Footer />
+    <div class="container-fluid mt-1" id="Footer">
+      <div class="row">
+        <div class="col-12">
+          <Footer />
+        </div>
       </div>
     </div>
   </div>
@@ -47,22 +45,33 @@
 <script>
 import Content from "../components/Content";
 import Boton from "../components/Boton";
-import CardWhite from "../components/CardWhite";
+import Cardimg from "../components/Cardimg";
 import Footer from "../components/Footer";
+import data from '../../informacion.json';
+
 
 export default {
   name: "About",
   components: {
     Content,
     Boton,
-    CardWhite,
-    Footer
+    Cardimg,
+    Footer,
+  },
+  data(){
+    return{
+      about: ""
+    }
+  },
+  created() {
+    this.about = data.about_me
+    console.log(data);
   }
 };
 </script>
 
 <style scoped>
-.about {
+.contact {
   background: #000; /* fallback for old browsers */
   height: 80px;
 }
@@ -90,6 +99,6 @@ export default {
 }
 
 .container-image > img{
-  border-radius: 8px;
+  border-radius: 0.08rem;
 }
 </style>

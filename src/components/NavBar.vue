@@ -72,19 +72,19 @@ export default {
 }
 
 #nav {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 #nav li{
-  padding: 4px 10px;
-  margin-left: 6px;
+  padding: 0.25rem 0.625rem;
+  margin-left: 0.375rem;
 }
 
 .link{
   color: #fff;
   text-decoration: none;
-  margin-right: 14px;
-  font-weight: bold;
+  margin-right: 0.875rem;
+  font-weight: 600;
 
 }
 
@@ -99,6 +99,12 @@ export default {
 
 #nav .navbar-brand:hover{
   color: #fca311;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  transition: ease;
+  transition-duration: .4s;
 }
 
 
