@@ -1,10 +1,12 @@
 <template>
-  <div class="col-12 col-md-3 card mt-5">
+  <div class="col-12 col-md-3 card mt-3">
     <div class="icon">
       <img :src="icon" alt="imagen">
     </div>
-    <h5 class="title">{{title}}</h5>
-    <p class="text">{{text}}</p>
+    <div class="content">
+      <h5 class="title">{{title}}</h5>
+      <p class="text">{{text}}</p>
+    </div>
   </div>
 </template>
 
@@ -34,9 +36,8 @@ export default {
 }
 
 .icon{
-  margin: 1.25rem auto 0.3125rem;
-  height: auto;
-  width: 3.75rem;
+  margin-bottom: auto;
+  height: 130px;
 }
 
 h5{
@@ -54,6 +55,15 @@ p{
 
 .title,.text {
     color: #fff;
+}
+
+img{
+  width: 160px;
+  margin-top: -10px;
+}
+
+.content{
+  margin: auto;
 }
 
 

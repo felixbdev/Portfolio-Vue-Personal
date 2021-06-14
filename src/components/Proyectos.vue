@@ -134,7 +134,7 @@ export default {
 }
 
 span{
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
@@ -147,4 +147,16 @@ p{
   font-size: 0.8125rem;
   font-weight: 300;
 }
+
+@media screen and (max-width: 720px){
+ span{
+   font-size: 13px;
+ }
+ @media screen and (max-width: 568px){
+ span{
+   font-size: 11px;
+ }
+}
+}
+
 </style>
