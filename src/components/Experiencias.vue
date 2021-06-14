@@ -1,7 +1,7 @@
 <template>
   <div class="contain">
     <div class="contain-fecha mb-3 mt-1">
-      <span>{{desde}} - {{hasta}}</span>
+      <span>{{fecha}}</span>
     </div>
     <div class="contain-title-experiencia mb-3">
       <h5>{{experiencia}}</h5>
@@ -19,8 +19,7 @@ export default {
   name: "Experiencias",
   props:{
     title: String,
-    desde: String,
-    hasta: String,
+    fecha: String,
     experiencia: String,
     resumen: String
   }

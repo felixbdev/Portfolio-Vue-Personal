@@ -1,9 +1,62 @@
 {
   "Bienvenida": {
     "titulo": "Bienvenido a mi sitio web",
-    "contenido": "Es un placer darte la bienvenida a mi portafolio, en el cual encontrar informacion sobre mi formacion academica , sobre los trabajos que he realizado de manera individual desarrollando mis capacidades y habilidades, actualmente soy estudiante universitario de la carrera de informatica."
+    "contenido": "Es un placer darte la bienvenida a mi portafolio, en el cual encontrar información sobre mi formación académica , sobre los trabajos que he realizado de manera individual desarrollando mis capacidades y habilidades, actualmente soy estudiante universitario de la carrera de informática."
   },
   "Conocimientos": {
-    "titulo": "Tengo conocimientos extras"
+    "titulo": "Tengo conocimientos extras",
+    "contenido": "Hace poco más de un año que decidí entrar en el mundo del desarrollo web, realizando cursos, poniendo en práctica lo aprendido, no hay sido fácil, es un mundo inmenso y cada dia conoces herramientas nuevas que hacen útil tu trabajo, inicie maquetado web, me retaba a mi mismo a recrear sitios con mis propios conocimientos, luego conocí git y vi que era mucho más fácil llevar el control y gestión de tus proyectos, pero una de las cosas que me pareció más interesante es adaptar un sitio web a móvil, es algo mágico"
+  },
+  "Educacion": {
+    "universidad":{
+      "fecha": "2020 - Actual",
+      "titulo": "Instituto Universitario de Mercadotecnia ISUM",
+      "descripcion": "Estudiante de 4° Trimestre en la carrera de informatica (Actual)"
+    },
+    "cursojs":{
+      "fecha": "2020 - 2021",
+      "titulo": "Jóvenes Programadores de BiblioRedes",
+      "descripcion": "Certificado JS otorgado por Jovenes Programadores"
+    },
+    "cursocss": {
+      "fecha": "2020 - 2021",
+      "titulo": "Jóvenes Programadores de BiblioRedes",
+      "descripcion":"Certificado CSS otorgado por Jovenes Programadores"
+    }
+  },
+  "Experiencia": {
+    "portafolio": {
+      "fecha": "2021- Actual",
+      "titulo": "Portafolio Personal",
+      "descripcion": "Portafolio personal realizado con Vue js poniendo en practica mis destrezas y habilidades adquiridas en vue"
+    },
+    "ListaTareas": {
+      "fecha":"Abril-2021",
+      "titulo": "Lista de Tareas",
+      "descripcion": "App para registrar tareas pendientes y realizadas con Javascript"
+    },
+    "Carrito": {
+      "fecha":"Abril-2021",
+      "titulo": "Carrito de compras",
+      "descripcion": "Realización de carrito de compras con sistema CRUD en Javascript"
+    }
+  },
+  "Aboutme": {
+    "contenido": "Me llamo Felix Bonillo, tengo 24 anos de edad, nacido en Caracas-Venezuela un 18 de junio, soy estudiante de informática del 4to trimestre actualmente, decidí dedicarme al desarrollo web de forma autodidacta, aprendiendo el front-end, no ha sido un camino fácil, pero no me he rendido. Me gusta mucho la música, en mi tiempo libre soy dj, otros de mis hobbies favoritos es entrenar en el gimnasio es la mejor forma de liberar energías, despejar mi mente y mantenerse sano. Me gusta mucho la tecnología, todo sobre computadoras y como avanza en el mundo, pasó horas en la pc entretenido, me gustan los retos, el análisis, pensar en soluciones y no me rindo hasta lograrlo, el aprendizaje constante me mantiene entretenido, aunque muchas veces quiero hacer tantas cosas a la vez que me termino atascando, tomó un respiro y me organizo para volver a codear, aunque ahorita me mantengo en el desarrollo web mi mayor deseo es aprender las ramas de la inteligencia artificial, pero ya ese es un deseo a largo plazo, pienso que la ruta a la IA es sorprendente, algo mágico, con bastante dificultad, todo un reto pero no me pienso rendir, mientras esa oportunidad llega, será un placer contagiar con mis diseños y magia del desarrollo a los espectadores y clientes."
+  },
+  "Aporte": {
+    "contenido": "Me considero una persona proactiva, bastante creativa, innovadora, puedo aportar estilos unicos a sitios web, animaciones, ideas de funcionalidad mejorando la experiencia del usuario en los sitios, paletas de colores, diseno adaptables al movil, trabajo en equipo, comunicativo.",
+    "designer": {
+      "titulo": "Diseños unicos",
+      "descripcion": "Uso de paletas de colores, comunicativo buscando la mejor experiencia desarrollador-cliente."
+    },
+    "brain": {
+      "titulo": "Ideas creativas",
+      "descripcion": "Ideas de funcionalidad, respecto a diseño y lo que sera el uso del usuario en el sitio web."
+    },
+    "team": {
+      "titulo": "Trabajo en equipo",
+      "descripcion": "Comunicativo, potencia de esfuerzos, mejora de eficacia, resultados, union y reduccion de tiempo de labores."
+    }
   }
 }

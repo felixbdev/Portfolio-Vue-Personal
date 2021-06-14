@@ -9,14 +9,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <Content
-            class="text-left text"
-            tittle="About me"
-            :content="about"
-          />
-          <div class="container-boton text-left mt-1">
-            <Boton class="btn-lg " text="About me" />
-          </div>
+          <Content class="text-left text" tittle="Sobre mi" :content="about" />
         </div>
       </div>
     </div>
@@ -25,11 +18,22 @@
       <Content
         class="text-center"
         tittle="Que puedo aportar"
-        content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis qu
-      am.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc"
+        :content="aporte"
       />
       <div class="row justify-content-around mt-5">
-        <Cardimg icon="../assets/designer.png"/>
+        <Cardimg
+          :title="designer.titulo"
+          :text="designer.descripcion"
+          icon="/img/designer.png"
+        />
+        <Cardimg
+        :title="brain.titulo"
+        :text="brain.descripcion"
+        icon="/img/brain.png" />
+        <Cardimg
+        :title="team.titulo"
+        :text="team.descripcion"
+        icon="/img/teamwork.png" />
       </div>
     </div>
     <div class="container-fluid mt-1" id="Footer">
@@ -44,28 +48,28 @@
 
 <script>
 import Content from "../components/Content";
-import Boton from "../components/Boton";
 import Cardimg from "../components/Cardimg";
 import Footer from "../components/Footer";
-import data from '../../informacion.json';
-
+import data from "../../informacion.json";
 
 export default {
   name: "About",
   components: {
     Content,
-    Boton,
     Cardimg,
-    Footer,
+    Footer
   },
-  data(){
-    return{
+  data() {
+    return {
       about: ""
-    }
+    };
   },
   created() {
-    this.about = data.about_me
-    console.log(data);
+    this.about = data.Aboutme.contenido;
+    this.aporte = data.Aporte.contenido;
+    this.designer = data.Aporte.designer;
+    this.brain = data.Aporte.brain;
+    this.team = data.Aporte.team;
   }
 };
 </script>
@@ -81,24 +85,29 @@ export default {
 }
 
 .bienvenida {
-  background: #23232393;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #00000083, #4642425b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000d7, #1211113f), url("../assets/bg-2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #23232393; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #00000083,
+    #4642425b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000d7, #1211113f),
+    url("../assets/bg-2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.background{
-  background-color: #fca311 ;
+.background {
+  background-color: #fca311;
 }
 
-.text{
+.text {
   color: #000;
 }
 
-.container-image > img{
+.container-image > img {
   border-radius: 0.08rem;
 }
 </style>

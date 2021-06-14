@@ -19,7 +19,7 @@
   <div class="container">
     <div class="texto-footer">
       <p>
-        © 2021 My Website. Sitio desarrollado con Vue js | Designed by
+        © 2021 My Website. Sitio desarrollado con Vue js | Diseñado por
         <a class="footer-link" href="https://github.com/felixbdev"
           >Felixbdev</a
         >

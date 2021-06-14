@@ -16,10 +16,8 @@
         <div class="container col-12 mt-5">
           <Content
             class="text-black"
-            tittle="Bienvenido a mi sitio"
-            content="Es un placer darte la bienvenida a mi portafolio, en el cual encontrar informacion sobre mi formacion academica
-            , sobre los trabajos que he realizado de manera individual desarrollando mis capacidades y habilidades, actualmente soy
-            estudiante universitario de la carrera de informatica."
+            :tittle="bienvenida.titulo"
+            :content="bienvenida.contenido"
           />
         </div>
       </div>
@@ -58,12 +56,11 @@
     <div class="labores container-fluid mt-5 " id="Skills">
       <div class="container pt-2 scroll-content fadeTop">
         <Content
-          tittle="Tengo conocimientos extras"
-          content="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-          cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam."
+          :tittle="conocimientos.titulo"
+          :content="conocimientos.contenido"
           class="text-white pt-4"
         />
-        <div class="row justify-content-around mt-5 card-presentacion">
+        <div class="row justify-content-around mt-3 card-presentacion">
           <Card
             class="mb-2"
             title="Maquetado"
@@ -100,24 +97,21 @@
             </div>
             <Experiencias
               class="mb-4"
-              desde="2020"
-              hasta="Actual"
-              experiencia="Instituto Universitario de Mercadotecnia ISUM"
+              :fecha="educacion.universidad.fecha"
+              :experiencia="educacion.universidad.titulo"
               resumen="Estudiante de 4° Trimestre en la carrera de informatica (Actual)"
             />
             <Experiencias
               class="mb-4"
-              desde="2020"
-              hasta="2021"
-              experiencia="Jóvenes Programadores de BiblioRedes"
-              resumen="Certificado Javascript I"
+              :fecha="educacion.cursojs.fecha"
+              :experiencia="educacion.cursojs.titulo"
+              :resumen="educacion.cursojs.descripcion"
             />
             <Experiencias
               class="mb-4"
-              desde="2020"
-              hasta="2021"
-              experiencia="Jóvenes Programadores de BiblioRedes"
-              resumen="Certificado CSS"
+              :fecha="educacion.cursocss.fecha"
+              :experiencia="educacion.cursocss.titulo"
+              :resumen="educacion.cursocss.descripcion"
             />
           </div>
           <div class="container col-12 col-md-6 mt-5">
@@ -126,23 +120,20 @@
             </div>
             <Experiencias
               class="mb-4"
-              desde="2021"
-              hasta="Actual"
-              experiencia="Portafolio Personal"
-              resumen="Portafolio personal realizado con Vue js poniendo en practica mis destrezas y habilidades adquiridas en vue"
+              :fecha="experiencia.portafolio.fecha"
+              :experiencia="experiencia.portafolio.titulo"
+              :resumen="experiencia.portafolio.descripcion"
             />
             <Experiencias
               class="mb-4"
-              desde="Abril"
-              hasta="2021"
-              experiencia="Lista de Tareas"
-              resumen="App para registrar tareas pendientes y realizadas con Javascript"
+              :fecha="experiencia.ListaTareas.fecha"
+              :experiencia="experiencia.ListaTareas.titulo"
+              :resumen="experiencia.ListaTareas.descripcion"
             />
             <Experiencias
-              desde="Abril"
-              hasta="2021"
-              experiencia="Carrito de compras"
-              resumen="Realización de carrito de compras con sistema CRUD en Javascript"
+              :fecha="experiencia.Carrito.fecha"
+              :experiencia="experiencia.Carrito.titulo"
+              :resumen="experiencia.Carrito.descripcion"
             />
           </div>
         </div>
@@ -166,6 +157,7 @@ import Card from "../components/Card";
 import Proyectos from "../components/Proyectos";
 import Experiencias from "../components/Experiencias";
 import Footer from "../components/Footer";
+import data from "../../informacion.json";
 
 export default {
   name: "Home",
@@ -177,7 +169,14 @@ export default {
     Proyectos,
     Experiencias,
     Footer
+  },created(){
+    this.bienvenida = data.Bienvenida;
+    this.conocimientos = data.Conocimientos;
+    this.educacion = data.Educacion;
+    this.experiencia = data.Experiencia;
   },
+
+
   mounted() {
     window.addEventListener("scroll", function() {
       let elements = document.getElementsByClassName("scroll-content");
