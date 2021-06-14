@@ -169,13 +169,13 @@ export default {
     Proyectos,
     Experiencias,
     Footer
-  },created(){
+  },
+  created() {
     this.bienvenida = data.Bienvenida;
     this.conocimientos = data.Conocimientos;
     this.educacion = data.Educacion;
     this.experiencia = data.Experiencia;
   },
-
 
   mounted() {
     window.addEventListener("scroll", function() {
@@ -264,15 +264,14 @@ span {
   font-weight: 700;
 }
 
-
 h2 {
   font-size: 2.08125rem;
   font-weight: 600;
 }
 
-
-@media screen and (max-width: 991px){
-  #Experiencias, #Skills {
+@media screen and (max-width: 991px) {
+  #Experiencias,
+  #Skills {
     background-attachment: initial;
   }
 }

@@ -27,13 +27,15 @@
           icon="/img/designer.png"
         />
         <Cardimg
-        :title="brain.titulo"
-        :text="brain.descripcion"
-        icon="/img/brain.png" />
+          :title="brain.titulo"
+          :text="brain.descripcion"
+          icon="/img/brain.png"
+        />
         <Cardimg
-        :title="team.titulo"
-        :text="team.descripcion"
-        icon="/img/teamwork.png" />
+          :title="team.titulo"
+          :text="team.descripcion"
+          icon="/img/teamwork.png"
+        />
       </div>
     </div>
     <div class="container-fluid mt-1" id="Footer">

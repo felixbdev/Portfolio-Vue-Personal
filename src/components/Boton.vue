@@ -1,6 +1,6 @@
 <template>
   <button class="btn">
-    {{text}}
+    {{ text }}
   </button>
 </template>
 
@@ -8,19 +8,18 @@
 export default {
   name: "Boton",
   props: {
-    text: String,
+    text: String
   }
-
-}
+};
 </script>
 
 <style scoped>
-  .btn{
-    background-color: #14213d;
-    color: white;
-  }
+.btn {
+  background-color: #14213d;
+  color: white;
+}
 
-  .btn:hover{
-    color: #fca311;
-  }
+.btn:hover {
+  color: #fca311;
+}
 </style>

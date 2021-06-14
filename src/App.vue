@@ -1,25 +1,21 @@
 <template>
-  <NavBar/>
+  <NavBar />
   <router-view v-slot="{ Component }">
-    <transition
-      name="fade"
-      mode="out-in"
-    >
+    <transition name="fade" mode="out-in">
       <component :is="Component" />
     </transition>
   </router-view>
 </template>
 
 <script>
-import NavBar from './components/NavBar'
-
+import NavBar from "./components/NavBar";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     NavBar
-  },
-}
+  }
+};
 </script>
 
 <style>
@@ -30,20 +26,18 @@ export default {
   text-align: center;
 }
 
-
-
 /*Scroll */
 
-::-webkit-scrollbar{
-    width: 8px;
+::-webkit-scrollbar {
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    border-radius: 12px;
-    background-color:  #fca211d5;
+  border-radius: 12px;
+  background-color: #fca211d5;
 }
 
 /*Efecto */
@@ -75,7 +69,6 @@ export default {
 .fade-leave-active {
   transition: opacity 0.5s ease;
 }
-
 
 .fade-enter-from,
 .fade-leave-to {

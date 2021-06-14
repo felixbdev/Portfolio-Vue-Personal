@@ -85,9 +85,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-
 #card-api {
   margin: 0.625rem 0.9375rem;
   padding: 0.9375rem;
@@ -96,7 +93,7 @@ export default {
   color: #000;
   border-radius: 0.625rem;
   border: 0.125rem solid #000;
-  transition: cubic-bezier(.33,.6,.83,.67);
+  transition: cubic-bezier(0.33, 0.6, 0.83, 0.67);
   transition-duration: 0.5s;
 }
 
@@ -104,10 +101,11 @@ export default {
   background: #14213d;
   color: #fff;
   transform: translateY(-10px);
-  box-shadow: rgba(0, 0, 0, 0.09) 0rem 0.125rem 0.0625rem, rgba(0, 0, 0, 0.09) 0rem 0.25rem 0.125rem, rgba(0, 0, 0, 0.09) 0rem 0.5rem 0.25rem, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0rem 0.125rem 0.0625rem,
+    rgba(0, 0, 0, 0.09) 0rem 0.25rem 0.125rem,
+    rgba(0, 0, 0, 0.09) 0rem 0.5rem 0.25rem, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
-
 
 .btn {
   background: #fca311;
@@ -117,46 +115,43 @@ export default {
   color: white;
 }
 
-.img-card{
-
+.img-card {
   height: 14.25rem;
   border-top-left-radius: 0.4375rem;
   border-bottom-left-radius: 0.5625rem;
   background: #14213d;
 }
 
-
-.img-card > img{
+.img-card > img {
   position: relative;
   width: 6.875rem;
   margin-left: -1.0625rem;
   margin-top: 1.25rem;
 }
 
-span{
+span {
   font-size: 0.875rem;
   font-weight: 700;
 }
 
-h3{
+h3 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-p{
+p {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-@media screen and (max-width: 720px){
- span{
-   font-size: 13px;
- }
- @media screen and (max-width: 568px){
- span{
-   font-size: 11px;
- }
+@media screen and (max-width: 720px) {
+  span {
+    font-size: 0.8125rem;
+  }
+  @media screen and (max-width: 568px) {
+    span {
+      font-size: 0.6875rem;
+    }
+  }
 }
-}
-
 </style>

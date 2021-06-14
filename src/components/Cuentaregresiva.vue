@@ -1,4 +1,4 @@
-<template class="container-sm" id= "countdown">
+<template class="container-sm" id="countdown">
   <div class="container">
     <div class="clock text-white d-flex justify-content-around p-2">
       <div id="days col-12">
@@ -24,58 +24,45 @@
 
 <script>
 export default {
-  name: 'Cuentaregresiva',
+  name: "Cuentaregresiva",
   methods: {
-    clock:setInterval(()=>{
-      let now = new Date().getTime()
-      let countDownDate = new Date ("Jun 1, 2021 09:00:00").getTime()
-      let distance = countDownDate - now
-      let days = Math.floor(distance / (1000 * 60 * 60 * 24))
-      let hours = Math.floor((distance % (1000 * 60 * 60 *24)) / (1000 * 60 *60))
-      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
-      let seconds = Math.floor((distance % (1000*60)) / 1000)
+    clock: setInterval(() => {
+      let now = new Date().getTime();
+      let countDownDate = new Date("Jun 1, 2021 09:00:00").getTime();
+      let distance = countDownDate - now;
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
       //Pintar Resultados
-      document.querySelector('.days').textContent = `${days}`
-      document.querySelector('.hours').textContent = `${hours}`
-      document.querySelector('.minutes').textContent = `${minutes}`
-      document.querySelector('.seconds').textContent = `${seconds}`
+      document.querySelector(".days").textContent = `${days}`;
+      document.querySelector(".hours").textContent = `${hours}`;
+      document.querySelector(".minutes").textContent = `${minutes}`;
+      document.querySelector(".seconds").textContent = `${seconds}`;
     })
   }
-}
-
-
-
-
-
-
-
-
-
-
+};
 </script>
 
 <style>
-
-
-
-.contenedor{
-  margin:auto;
+.contenedor {
+  margin: auto;
   border: 1px solid blue;
 }
 
-.clock span{
+.clock span {
   text-align: center;
   font-size: 1.4rem;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
-.clock h4{
+.clock h4 {
   font-size: 1em;
 }
 
-.clock div{
+.clock div {
   margin: auto;
-
 }
-
 </style>
